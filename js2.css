@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+.traffic-light {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(231, 230, 230);
+}
+
+.traffic-light__color {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    margin: 10px;
+    opacity: 20%
+}
+
+.traffic-light__color_red {
+    background-color: rgb(253, 5, 5);
+}
+
+.traffic-light__color_yellow {
+    background-color: rgb(255, 251, 0);
+}
+
+.traffic-light__color_green {
+    background-color: rgb(0, 203, 34);
+}
